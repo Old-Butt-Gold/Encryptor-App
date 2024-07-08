@@ -3,9 +3,9 @@ import './style.css';
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     <div class="container">
         <h1>Encryptor App</h1>
-        <label for="message">Your message :</label>
+        <label for="message">Your message:</label>
         <textarea id="message" rows="5" cols="50"></textarea>
-        <label for="key">Key :</label>
+        <label for="key">Key:</label>
         <input type="text" id="key" size="50">
         <div class="buttons">
             <button id="enc-btn">Encrypt</button>
@@ -13,7 +13,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
         </div>
 
         <h2>Result:</h2>
-        <div id="result"></div>
+        <textarea id="result" rows="5" cols="50" readonly></textarea>
 
     </div>
 `;
